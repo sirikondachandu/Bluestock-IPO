@@ -1,0 +1,32 @@
+:root{
+    --font : 'Poppins'
+}
+body{
+    font-family: var(--font);
+    width: 1920px;
+}
+/* header css */
+nav{
+    height: 124px;
+    border: 1px;
+    border-color: #9A9A9A;
+    background-color: #ffffff;
+}
+#logo, img{
+    width: 85px;
+    height: 45px;
+    padding-top:37px;
+    padding-left: 86px;
+}
+#brand-name{
+    width: 299.68px;
+    height: 68px;
+    padding-top: 27px;
+    padding-left: 196px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 67.5px;
+    color: #1E1E1E;
+}
+/* footer css */
+
