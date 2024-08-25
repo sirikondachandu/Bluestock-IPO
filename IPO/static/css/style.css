@@ -1,32 +1,48 @@
-:root{
-    --font : 'Poppins'
+:root {
+    --font: 'Poppins'
 }
-body{
-    font-family: var(--font);
+
+body {
     width: 1920px;
 }
-/* header css */
-nav{
+
+nav {
     height: 124px;
-    border: 1px;
-    border-color: #9A9A9A;
-    background-color: #ffffff;
+    font-family: var(--font);
+    box-shadow: 0px 4px 20px 5px #00000005;
 }
-#logo, img{
+
+.logo {
     width: 85px;
     height: 45px;
-    padding-top:37px;
-    padding-left: 86px;
 }
-#brand-name{
+
+.brand-name {
     width: 299.68px;
     height: 68px;
-    padding-top: 27px;
-    padding-left: 196px;
-    font-weight: 700;
     font-size: 45px;
+    font-weight: 700;
     line-height: 67.5px;
-    color: #1E1E1E;
 }
-/* footer css */
 
+.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #9A9A9A;
+}
+
+.badge {
+    text-align: center;
+}
+
+.signUp {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #FFFFFF;
+}
+
+/* header css */
+
+/* footer css */

@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def UpcomingIPO(request):
     return render(request,'UpcomingIPO.html')
+
+def  broker(request):
+    return render(request,'broker.html')

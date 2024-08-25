@@ -4,4 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.UpcomingIPO, name="UpcomingIPO"),
+    path('broker/', views.broker, name="broker"),
 ]
