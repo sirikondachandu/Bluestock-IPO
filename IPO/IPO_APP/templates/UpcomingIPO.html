@@ -1,11 +1,62 @@
 {% extends "layout.html" %}
 
-{% comment %} http://127.0.0.1:8000/IPO_APP/ {% endcomment %}
+{% comment %} url :-- http://127.0.0.1:8000/IPO_APP/ {% endcomment %}
 
-
-
+<!-- title block-->
 
 {% block title %}Upcoming-IPO{% endblock title %}
+
+<!-- item-1 block-->
+
+{% block item-1 %}
+    <li class="nav-item">
+        <a class="nav-link pe-4" aria-current="page" href="#">PRODUCTS</a>
+    </li>
+{% endblock  %}
+
+<!-- item-2 block-->
+{% block item-2 %}
+    <li class="nav-item">
+        <a class="nav-link pe-4" aria-current="page" href="#">PRICING</a>
+    </li>
+{% endblock  %}
+
+<!-- Dropdown block-->
+
+{% block Dropdown %}
+    <li class="nav-item">
+        <a class="nav-link pe-4" aria-current="page" href="#">COMMUNITY</a>
+    </li>
+{% endblock %}
+        
+        <!-- item-4 block-->
+        
+{% block item-4 %}
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle pe-4" href="#" id="product" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MEDIA
+        </a>
+        <ul class="dropdown-menu nav-item" aria-labelledby="product">
+            <li><a class="nav-link dropdown-item" href="#">MEDIA 1</a></li>
+            <li><a class="nav-link dropdown-item" href="#">MEDIA 2</a></li>
+        </ul>
+    </li>
+    
+{% endblock %}
+
+<!-- item-5 block-->
+
+{% block item-5 %}
+    <li class="nav-item">
+        <a class="nav-link pe-4 icon-link" aria-current="page" href="#">SUPPORT
+            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 -1.19071e-07L3.33618 1.12002L7.13806 5.46503L9 -1.19071e-07ZM1.32925 7.37629L5.94266 3.33956L5.28415 2.58698L0.670748 6.62371L1.32925 7.37629Z" fill="#9A9A9A"/>
+            </svg>
+        </a>
+    </li>
+{% endblock %}
+
+<!-- Content block-->
 
 {% block content %}
     <h1>Upcoming IPO </h1>
