@@ -30,4 +30,4 @@ def  signUp(request):
     return render(request,'signUp.html')
 
 def  forget(request):
-    return render(request,'forgetPass.html')
+    return render(request,'forget.html')
