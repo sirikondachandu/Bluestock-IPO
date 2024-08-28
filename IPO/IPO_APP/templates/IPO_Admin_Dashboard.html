@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% comment %} url :-- http://127.0.0.1:8000/IPO_APP/IPO_Admin_Dashboard/ {% endcomment %}
+
+<!-- title block-->
+{% block title %}IPO Admin Dashboard{% endblock title %}
+
+<!-- Link to CSS file -->
+{% load static %}
+<link rel="stylesheet" href="{% static "dashboard_css/style.css" %}">
+
+<!-- Content block-->
+{% block content %}
+    <div class="sidenav">
+        <a href="#">Menu</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Manage IPO</a>
+        <a href="#">IPO Subscription</a>
+        <a href="#">IPO Allotment</a>
+        <a href="#">Others</a>
+        <a href="#">Settings</a>
+        <a href="#">API Manager</a>
+        <a href="#">Accounts</a>
+        <a href="#">Help</a>
+    </div>
+{% endblock content %} 
+
+{% block main_content %}
+    <h1>IPO Admin Dashboard</h1>
+    <!-- Main dashboard content goes here -->
+{% endblock %}

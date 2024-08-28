@@ -13,4 +13,5 @@ urlpatterns = [
     path('signIn/', views.signIn, name="signIn"),
     path('signUp/', views.signUp, name="signUp"),
     path('forget/', views.forget, name="forget"),
+    path('IPO_Admin_Dashboard/', views.IPO_Admin_Dashboard, name="IPO_Admin_Dashboard"),
 ]

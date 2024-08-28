@@ -31,3 +31,6 @@ def  signUp(request):
 
 def  forget(request):
     return render(request,'forget.html')
+
+def IPO_Admin_Dashboard(request):
+    return render(request, 'IPO_Admin_Dashboard.html')
